@@ -38,7 +38,7 @@ const About = () => {
             </article>
           </div>
           <p>Olá! Me chamo Pedro, sou um estudante do quarto ano de Ciência da Computação na Universidade Estadual de Maringá (UEM).</p>
-          <p>Atualment, além de estudar ciência da computação, eu também foco em melhorar minhas habilidades como programador web/mobile.</p>
+          <p>Atualmente, além de estudar ciência da computação, eu também foco em melhorar minhas habilidades como programador web/mobile.</p>
           <p>No meu tempo livre eu costumo ler, jogar (como qualquer outro nerd por aí) e brincar com meus cachorros, como pode ver na foto rs.</p>
           <p>Ah, e não menos importante, venho procurando oportunidades para trabalhar no exterior como desenvolvedor!</p>
 

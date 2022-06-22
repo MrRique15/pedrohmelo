@@ -1,6 +1,6 @@
 header{
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 6rem;
     overflow: hidden;
 }
 
@@ -60,19 +60,23 @@ header{
 }
 
 /*============ MEDIA QUERIES (MEDIUM DEVICES) ==============*/
-@media screen and (max-widht: 1024px){
+@media screen and (max-width: 1080px){
     header{
         height: 68vh;
     }
 }
 
 /*============ MEDIA QUERIES (SMALL DEVICES) ==============*/
-@media screen and (max-widht: 600px){
+@media screen and (max-width: 600px){
     header{
         height: 100vh;
+        padding-top: 1rem;
     }
 
-    .header__socials,
+    .me{
+        margin-top: 2rem;
+    }
+
     .scroll__down{
         display: none;
     }
