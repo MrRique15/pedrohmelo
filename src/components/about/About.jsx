@@ -22,7 +22,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>3+ Years Studying Computer Science</small>
+              <small>4+ Years Studying Computer Science</small>
             </article>
 
             <article className='about__card'>
@@ -37,7 +37,11 @@ const About = () => {
               <small>5+ Completed Projects</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in elit ut odio maximus cursus malesuada vel dolor. Curabitur tincidunt sapien ipsum, quis porttitor est rhoncus non. Pellentesque elementum efficitur ex. Maecenas gravida sit amet nunc ac convallis. Sed suscipit elit ac felis volutpat, sed luctus lectus fringilla. Donec placerat massa sed dignissim vulputate. Morbi condimentum felis eu dignissim consequat. Phasellus euismod placerat lobortis.</p>
+          <p>Hi! I'm Pedro, a forth year Computer Science student at State University of Maringá.</p>
+          <p>Currently i've been focusing my studies at JavaScript/React Native, aiming to be a web/mobile developer. I enjoy helping others in their studies/tasks 
+            as it is also an opportunity to test my knowledge and learn more (kinda applying the pair programming concept in a personal way).</p>
+          <p>In my free time i enjoy playing games, reading (like any other geek out there) and playing with my dogs (look how cute they are!).</p>
+          <p> Oh, and last but not least, I'm also looking for opportunities to work abroad! </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
