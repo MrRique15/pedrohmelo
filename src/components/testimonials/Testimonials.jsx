@@ -1,6 +1,7 @@
 import React from 'react'
 import './testimonials.css'
 import AVT1 from '../../assets/colirio2.jpg'
+import AVT2 from '../../assets/avatar1.jpg'
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
@@ -15,20 +16,20 @@ const data = [
   {
     avatar: AVT1,
     name: 'João Rigon',
-    review: 'cara top'
+    review: 'Muito prestativo e atencioso, sempre preocupado com as minhas necessidades.'
   },
   {
-    avatar: AVT1,
-    name: 'Little John',
-    review: 'Definivamente o programador mais lindo e gostoso da região, eu penso todos os dias em largar minha namorada pra tentar uma oportunidade com esse gatoOooO'
+    avatar: AVT2,
+    name: 'Iraci',
+    review: 'Dedicado e Prestativo!'
   }
 ]
 
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Review from clients</h5>
-      <h2>Testimonials</h2>
+      <h5>Depoimento de Clientes</h5>
+      <h2>Reviews</h2>
 
       <Swiper className="container testimonials__container"
       // install Swiper modules

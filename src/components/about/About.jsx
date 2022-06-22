@@ -8,8 +8,8 @@ import {VscFolderLibrary} from 'react-icons/vsc'
 const About = () => {
   return (
     <section id='about'>
-      <h5>Get to Know</h5>
-      <h2>About Me</h2>
+      <h5>Conheça um Pouco</h5>
+      <h2>Sobre Mim</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -21,29 +21,28 @@ const About = () => {
           <div className="about__cards">
             <article className='about__card'>
               <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>4+ Years Studying Computer Science</small>
+              <h5>Experiência</h5>
+              <small>4+ anos estudando Ciência da Computação</small>
             </article>
 
             <article className='about__card'>
               <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
+              <h5>Clientes</h5>
               <small>3+</small>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
-              <h5>Projects</h5>
-              <small>5+ Completed Projects</small>
+              <h5>Projetos</h5>
+              <small>5+ Projetos Completos</small>
             </article>
           </div>
-          <p>Hi! I'm Pedro, a forth year Computer Science student at State University of Maringá.</p>
-          <p>Currently i've been focusing my studies at JavaScript/React Native, aiming to be a web/mobile developer. I enjoy helping others in their studies/tasks 
-            as it is also an opportunity to test my knowledge and learn more (kinda applying the pair programming concept in a personal way).</p>
-          <p>In my free time i enjoy playing games, reading (like any other geek out there) and playing with my dogs (look how cute they are!).</p>
-          <p> Oh, and last but not least, I'm also looking for opportunities to work abroad! </p>
+          <p>Olá! Me chamo Pedro, sou um estudante do quarto ano de Ciência da Computação na Universidade Estadual de Maringá (UEM).</p>
+          <p>Atualment, além de estudar ciência da computação, eu também foco em melhorar minhas habilidades como programador web/mobile.</p>
+          <p>No meu tempo livre eu costumo ler, jogar (como qualquer outro nerd por aí) e brincar com meus cachorros, como pode ver na foto rs.</p>
+          <p>Ah, e não menos importante, venho procurando oportunidades para trabalhar no exterior como desenvolvedor!</p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className='btn btn-primary'>Fale Comigo</a>
         </div>
       </div>
     </section>

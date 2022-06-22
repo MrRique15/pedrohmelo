@@ -5,81 +5,70 @@ import {BiCheck} from 'react-icons/bi'
 const Services = () => {
   return (
     <section id='services'>
-      <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <h5>O Que Eu Ofereço</h5>
+      <h2>Serviços</h2>
 
       <div className="container services__container">
-        <article className="service">
+
+      <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Desenvolvimento Mobile</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetut</p>
+              <p>Desenvolvimento utilizando React Native</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetut</p>
+              <p>Execução para plataformas iOS e Android</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetut</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetut</p>
+              <p>Manutenção do aplicativo</p>
             </li>
           </ul>
         </article>
 
         <article className="service">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Desenvolvimento Web</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetut</p>
+              <p>Desenvolvimento da estrutura digital</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetut</p>
+              <p>Execução com as tecnologias mais recentes do mercado</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetut</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetut</p>
+              <p>Manutenção das páginas web</p>
             </li>
           </ul>
         </article>
 
         <article className="service">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Back End</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetut</p>
+              <p>Integração das páginas web/mobile com banco de dados Mongo DB</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetut</p>
+              <p>Utilização de estruturas de dados para projetos mais complexos</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetut</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetut</p>
+              <p>Uso de APIs conforme a necessidade do cliente</p>
             </li>
           </ul>
         </article>

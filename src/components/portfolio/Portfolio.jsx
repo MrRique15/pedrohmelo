@@ -8,16 +8,22 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'SASHA',
-    github: 'https://github.com',
+    title: 'Gameplay App',
+    github: 'https://github.com/pedrohmelo/Gym-App',
+  },
+  {
+    id: 2,
+    image: IMG1,
+    title: 'OpenScience 2021',
+    github: 'https://github.com/opensciense/opensciense2021'
   }
 ]
 
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5>Meus Trabalhos Recentes</h5>
+      <h2>Portfólio</h2>
 
       <div className="container portfolio__container">
         {
